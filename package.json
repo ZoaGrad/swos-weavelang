@@ -1,0 +1,13 @@
+{
+  "name": "swos-weavelang",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -C apps/witness-studio-app dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

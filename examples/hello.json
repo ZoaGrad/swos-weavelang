@@ -1,0 +1,52 @@
+{
+  "glyphs": [
+    {
+      "id": "g1",
+      "label": "seq",
+      "provenance": {
+        "sourceSpan": { "start": 0, "end": 4 }
+      }
+    },
+    {
+      "id": "g2",
+      "label": "let",
+      "provenance": {
+        "sourceSpan": { "start": 5, "end": 10 }
+      }
+    },
+    {
+      "id": "g3",
+      "label": "h",
+      "provenance": {
+        "sourceSpan": { "start": 11, "end": 12 }
+      }
+    },
+    {
+      "id": "g4",
+      "label": "input",
+      "provenance": {
+        "sourceSpan": { "start": 13, "end": 18 }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "g1",
+      "target": "g2",
+      "label": "0"
+    },
+    {
+      "id": "e2",
+      "source": "g2",
+      "target": "g3",
+      "label": "0"
+    },
+    {
+      "id": "e3",
+      "source": "g2",
+      "target": "g4",
+      "label": "1"
+    }
+  ]
+}
